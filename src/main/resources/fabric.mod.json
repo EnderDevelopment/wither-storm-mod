@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "wither_storm",
+  "version": "${mod_version}",
+  "name": "Wither Storm Mod",
+  "description": "A terrifying Wither Storm boss with advanced AI and destructive behaviors.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.witherstorm.WitherStormMod"
+    ]
+  },
+  "mixins": [
+    "witherstorm.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.5",
+    "fabric-api": "*"
+  }
+}
